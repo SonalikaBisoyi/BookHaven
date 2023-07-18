@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reset Page</title>
+  <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+  <div class="container">
+    <div class="bookimage">
+      <img src="./images/login1.jpg" alt="bookimage">
+    </div>
+    <div class="resetform">
+      <h3>Reset Password</h3>
+      <form id="form">
+        <div class="forminput">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Email">
+        </div>
+        <div class="forminput">
+          <label for="new-password">New Password:</label>
+          <input type="password" id="new-password" placeholder="New Password">
+        </div>
+        <div class="forminput">
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" placeholder="Confirm Password">
+        </div>
+        <p>Remembered your password? <a href="login.html">Login</a></p>
+        <div id="errormessage" class="message"></div>
+      </form>
+      <button type="submit" onclick="submit()">Reset Password</button>
+    </div>
+  </div>
+</body>
+</html>
+<script>
+    let submit = async() =>{
+        let email = document.getElementById("email").value;
+        let newPassword = document.getElementById("new-password").value;
+        let confirmPassword = document.getElementById("confirm-password").value;
+        let errorMessage = document.getElementById("errormessage");
+        let resetdata={
+            email: email,
+            newPassword: newPassword,
+            confirmPassword: confirmPassword,
+        };
+        if (resetdata.email =="") {
+            errorMessage.innerText = "Please enter your email";
+        } else if (resetdata.newPassword =="") {
+            errorMessage.innerText = "Please enter a new password";
+        } else if (resetdata.newPassword.length < 6) {
+            errorMessage.innerText = "Password must be at least 6 characters long.";
+        } else if (resetdata.confirmPassword =="") {
+            errorMessage.innerText = "Please confirm your password";
+        } else if (resetdata.newPassword !== resetdata.confirmPassword) {
+            errorMessage.innerText = "Passwords do not match";
+        } else {
+            let response2= await fetch("http://localhost:3000/resetdata",{
+            method: "POST",
+            body: JSON.stringify(resetdata),
+            headers:{
+                "Content-Type": "application/json"
+            }
+        });
+        //window.alert("Reset Successfull");
+        window.location.href = "login.html";
+    }
+}
+</script> 

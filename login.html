@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <div class="bookimage">
+      <img src="./images/login1.jpg" alt="bookimage">
+    </div>
+    <div class="loginform">
+      <h4>If you already has an account, just login!</h4>
+      <form id="form">
+        <div class="forminput">
+          <label for="username">Username</label>
+          <input type="name" id="username" placeholder="name">
+        </div>
+        <div class="forminput">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="password">
+        </div>
+        <a href="reset.html">Forgot Password ?</a>
+        <p>Don't have an account ? Please <a href="signup.html">Sign Up</a></p>
+        <div id="errormessage" class="message"></div>
+      </form>
+      <button type="submit" onclick="submit()">Login</button>
+    </div>
+  </div>
+</body>
+</html>
+<script> 
+    let submit = async() =>{
+        event.preventDefault();
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+        let errorMessage = document.getElementById("errormessage");
+        let logindata={
+        username: username,
+        password: password,
+        };
+        if (logindata.username =="") {
+            errorMessage.innerText = "Please enter your username.";
+        } else if (logindata.password =="") {
+            errorMessage.innerText = "Please enter your password.";
+        } else {
+            let response = await fetch("http://localhost:3000/logindata",{
+            method: "POST",
+            body: JSON.stringify(logindata),
+            headers:{
+                "Content-Type": "application/json"
+            },
+        });
+        //alert("Login Successfull");
+        //console.log("Success");
+        window.location.href ="books.html";
+    }
+}
+</script> 

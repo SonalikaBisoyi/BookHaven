@@ -1,0 +1,221 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+section nav {
+    width: 100%;
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgb(127, 255, 212);
+    background-color: azure;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    overflow: hidden;
+}
+
+section nav .logo img {
+    width: 100px;
+    cursor: pointer;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+section nav ul {
+    list-style: none;
+}
+
+section nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a {
+    text-decoration: blueviolet;
+    color: black;
+}
+
+section nav li a:hover {
+    color: green;
+}
+
+section nav .icon i {
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+section nav .icon i:hover {
+    color: green;
+    cursor: pointer;
+}
+
+section .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 30%;
+    z-index: 1;
+    color: #fff;
+    right: -40%;
+}
+
+section .main h1 {
+    font-size: 55px;
+    position: relative;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+section .main h1 span {
+    color: green;
+}
+
+section .main p {
+    width: 650px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+section .main .main_tag .main_book {
+    background: black;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+section .main_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+section .main_video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+
+.services .services_div {
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .services_div .services_card {
+    text-align: center;
+    width: 300px;
+    height: auto;
+    box-shadow: 0 0 8px aquamarine;
+    padding: 15px 10px;
+}
+
+.services .services_div .services_card i {
+    color: green;
+    font-size: 40px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.services .services_div .services_card h3 {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1030px) {
+    .services .div {
+        background-color: black;
+        width: 200px;
+    }
+
+    p {
+        color: green;
+    }
+}
+
+.services h2 {
+    margin-bottom: 20px;
+}
+
+.brand {
+    width: 20%;
+    display: inline;
+}
+
+.brand img {
+    height: 175px;
+}
+
+.section-5 {
+    background-color: rgb(224, 219, 219);
+    display: grid;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

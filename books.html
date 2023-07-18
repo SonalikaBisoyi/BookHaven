@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Books Homepage</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="books.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <section>
+    <nav>
+        <div class="logo">
+            <img src="logo1.png">
+
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="featurebook.html">Featured</a></li>
+          <li><a href="newarrival.html">New Arrivals</a></li>
+          <li><a href="books.html">Explore</a></li>
+          <li><a href="blog.html">Blog</a></li>
+
+        </ul>
+
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-book"></i>
+
+        </div>
+    </nav>  
+  </section>
+  <section>
+  <div id="categories">
+    <button class="category-button" onclick="filterBooks('all')">All</button>
+    <button class="category-button" onclick="filterBooks('Fiction')">Fiction</button>
+    <button class="category-button" onclick="filterBooks('Classics')">Classics</button>
+    <button class="category-button" onclick="filterBooks('Fantasy')">Fantasy</button>
+    <button class="category-button" onclick="filterBooks('Comedy')">Comedy</button>
+    <button class="category-button" onclick="filterBooks('SelfHelp')">SelfHelp</button>
+    <button class="category-button"onclick="filterBooks('Action-and-Adventure')">Action-and-Adventure</button>
+    <button class="category-button" onclick="filterBooks('GraphicNovel')">GraphicNovel</button>
+    <button class="category-button" onclick="filterBooks('Detective-and-Mystery')">Detective-and-Mystery</button>
+    <button class="category-button" onclick="filterBooks('Romance')">Romance</button>
+    <button class="category-button" onclick="filterBooks('Biographies-and-Autobiographies')">Biographies-and-Autobiographies</button>
+    <button class="category-button" onclick="filterBooks('Cookbooks')">Cookbooks</button>
+  </div>
+  <div id="bookDetailsPopup" class="popup">
+    <div id="popupContent">
+      <span id="closePopup" >×</span>
+      <div id="bookDetails"></div>
+    </div>
+  </div>
+
+  <div id="books"></div>
+
+  <script src="books.js"></script>
+
+  <footer>
+    <p>© 2023 Your Website. All rights reserved.</p>
+    <div class="footer_main">
+
+        <div class="tag">
+            <img src="logo1.png">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quaerat ipsa aspernatur ad 
+                sequi, dolore eveniet vitae quasi. Excepturi ipsa odio impedit sequi at hic velit, minus 
+                vero sint. Voluptas?
+            </p>
+
+        </div>
+
+        <div class="tag">
+            <h1>Quick Link</h1>
+            <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="featurebook.html">Featured</a>
+                <a href="newarrival.html">Arrivals</a>
+                <a href="books.html">Explore</a>
+                <a href="blog.html">Blog</a>
+            
+        </div>
+
+        <div class="tag">
+            <h1>Contact Info</h1>
+            <a href="#"><i class="fa-solid fa-phone"></i>+94 12 345 6789</a>
+            <a href="#"><i class="fa-solid fa-phone"></i>+94 32 444 699</a>
+            <a href="#"><i class="fa-solid fa-envelope"></i>bookstore123@gmail.com</a>
+            
+        </div>
+
+        <div class="tag">
+            <h1>Follow Us</h1>
+            <div class="social_link">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            
+        </div>       
+        
+    </div>
+    
+  </footer>
+</section>
+</body>
+</html>

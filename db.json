@@ -1,0 +1,517 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "logindata": [
+    {
+      "username": "neha",
+      "password": "qwqwqw",
+      "id": 1
+    },
+    {
+      "username": "subhasmita",
+      "password": "wewewe",
+      "id": 2
+    },
+    {
+      "username": "neha",
+      "password": "wewewe",
+      "id": 3
+    },
+    {
+      "username": "neha",
+      "password": "kkkkkk",
+      "id": 4
+    },
+    {
+      "username": "neha",
+      "password": "sssssss",
+      "id": 5
+    },
+    {
+      "username": "neha",
+      "password": "gggggg",
+      "id": 6
+    },
+    {
+      "username": "neha",
+      "password": "kkkkkkk",
+      "id": 7
+    },
+    {
+      "username": "neha",
+      "password": "kkkkkkk",
+      "id": 8
+    },
+    {
+      "username": "sonali",
+      "password": "sonali9999",
+      "id": 9
+    },
+    {
+      "username": "sonali",
+      "password": "sonali1234",
+      "id": 10
+    },
+    {
+      "username": "sonali",
+      "password": "qaz123",
+      "id": 11
+    },
+    {
+      "username": "sonali",
+      "password": "qaz123",
+      "id": 12
+    },
+    {
+      "username": "sonali@gmail.com",
+      "password": "sonali123",
+      "id": 13
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 14
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 15
+    },
+    {
+      "username": "neha",
+      "password": "qwqwqw",
+      "id": 16
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 17
+    },
+    {
+      "username": "neha",
+      "password": "qwqwqw",
+      "id": 18
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 19
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 20
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 21
+    },
+    {
+      "username": "sonali",
+      "password": "asd",
+      "id": 22
+    },
+    {
+      "username": "sonali",
+      "password": "son",
+      "id": 23
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 24
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 25
+    },
+    {
+      "username": "sonali",
+      "password": "son",
+      "id": 26
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 27
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 28
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 29
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 30
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 31
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 32
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 33
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 34
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 35
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 36
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 37
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 38
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 39
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 40
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 41
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 42
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 43
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 44
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 45
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 46
+    },
+    {
+      "username": "sonali",
+      "password": "98765443",
+      "id": 47
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 48
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 49
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 50
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 51
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 52
+    },
+    {
+      "username": "sonalika24bisoyi@gmail.com",
+      "password": "sonalika",
+      "id": 53
+    },
+    {
+      "username": "sonalika24bisoyi@gmail.com",
+      "password": "sonalika",
+      "id": 54
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 55
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 56
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 57
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 58
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 59
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 60
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 61
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 62
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 63
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 64
+    },
+    {
+      "username": "sonali",
+      "password": "sonali123",
+      "id": 65
+    },
+    {
+      "username": "sonali@gmail.com",
+      "password": "qwaszx",
+      "id": 66
+    }
+  ],
+  "signupdata": [
+    {
+      "email": "sonali@gmail.com",
+      "password": "sonali123",
+      "confirmPassword": "sonali123",
+      "id": 1
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "qwerty123",
+      "confirmPassword": "qwerty123",
+      "id": 2
+    },
+    {
+      "email": "sonali",
+      "password": "qaz123",
+      "confirmPassword": "qaz123",
+      "id": 3
+    },
+    {
+      "email": "qaz",
+      "password": "qwerty123",
+      "confirmPassword": "qwerty123",
+      "id": 4
+    },
+    {
+      "email": "asd",
+      "password": "qazwsx",
+      "confirmPassword": "qazwsx",
+      "id": 5
+    },
+    {
+      "email": "qsc",
+      "password": "qsc123",
+      "confirmPassword": "qsc123",
+      "id": 6
+    },
+    {
+      "email": "qsx",
+      "password": "qsx123",
+      "confirmPassword": "qsx123",
+      "id": 7
+    },
+    {
+      "email": "qsd",
+      "password": "qsd123",
+      "confirmPassword": "qsd123",
+      "id": 8
+    },
+    {
+      "email": "elf",
+      "password": "elf123",
+      "confirmPassword": "elf123",
+      "id": 9
+    },
+    {
+      "email": "sona@gmail.com",
+      "password": "sona123",
+      "confirmPassword": "sona123",
+      "id": 10
+    },
+    {
+      "email": "sonali",
+      "password": "qwerty",
+      "confirmPassword": "qwerty",
+      "id": 11
+    },
+    {
+      "email": "tyu@gmail.com",
+      "password": "qwerty",
+      "confirmPassword": "qwerty",
+      "id": 12
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "qwerty",
+      "confirmPassword": "qwerty",
+      "id": 13
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 14
+    },
+    {
+      "email": "sona@gmail.com",
+      "password": "qwerty",
+      "confirmPassword": "qwerty",
+      "id": 15
+    },
+    {
+      "email": "sonalika24bisoyi@gmail.com",
+      "password": "sonalika",
+      "confirmPassword": "sonalika",
+      "id": 16
+    },
+    {
+      "email": "sonalika24bisoyi@gmail.com",
+      "password": "sonalika",
+      "confirmPassword": "sonalika",
+      "id": 17
+    },
+    {
+      "email": "sonalika24bisoyi@gmail.com",
+      "password": "qwerty",
+      "confirmPassword": "qwerty",
+      "id": 18
+    },
+    {
+      "email": "sonalika24bisoyi@gmail.com",
+      "password": "lkjhgf",
+      "confirmPassword": "lkjhgf",
+      "id": 19
+    },
+    {
+      "email": "sonalika24bisoyi@gmail.com",
+      "password": "lkjhgf",
+      "confirmPassword": "lkjhgf",
+      "id": 20
+    },
+    {
+      "email": "s@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 21
+    },
+    {
+      "email": "sonali@gmail.com",
+      "password": "qwaszx",
+      "confirmPassword": "qwaszx",
+      "id": 22
+    },
+    {
+      "email": "sonali@gmail.com",
+      "password": "qwaszx",
+      "confirmPassword": "qwaszx",
+      "id": 23
+    }
+  ],
+  "resetdata": [
+    {
+      "email": "sonali@gmail.com",
+      "newPassword": "sonali1234",
+      "confirmPassword": "sonali1234",
+      "id": 1
+    },
+    {
+      "email": "sonalika24bisoyi@gmail.com",
+      "newPassword": "1234ert",
+      "confirmPassword": "1234ert",
+      "id": 2
+    },
+    {
+      "email": "sonalika24bisoyi@gmail.com",
+      "newPassword": "asd123",
+      "confirmPassword": "asd123",
+      "id": 3
+    },
+    {
+      "email": "sonalika24bisoyi@gmail.com",
+      "newPassword": "sonalika",
+      "confirmPassword": "sonalika",
+      "id": 4
+    }
+  ]
+}
